@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const api = {
   key: '8ca5e4781d73be49378387a021b8de2b',
