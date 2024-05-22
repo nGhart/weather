@@ -101,9 +101,7 @@ function App() {
         ) : (
           <div>
             <div>
-              // <p>City not found</p>
-              // <p>Try again</p>
-          <p>Search for weather in a specified city</p>
+                       <p>Search for weather in a specified city</p>
             </div>
           </div>
         )}
