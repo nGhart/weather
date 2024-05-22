@@ -9,7 +9,7 @@ const api = {
 const iconUrl = 'http://openweathermap.org/img/w/';
 const icon = 'weather.weather[0].icon';
 function App() {
-  const [userInput, setUserInput] = useState('accra');
+  const [userInput, setUserInput] = useState('');
   const [weather, setWeather] = useState({});
   const search = (event) => {
     if (event.key === 'Enter') {
@@ -101,8 +101,9 @@ function App() {
         ) : (
           <div>
             <div>
-              <p>City not found</p>
-              <p>Try again</p>
+              // <p>City not found</p>
+              // <p>Try again</p>
+          <p>Search for weather in a specified city</p>
             </div>
           </div>
         )}
