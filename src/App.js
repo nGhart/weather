@@ -9,7 +9,7 @@ const api = {
 const iconUrl = 'http://openweathermap.org/img/w/';
 const icon = 'weather.weather[0].icon';
 function App() {
-  const [userInput, setUserInput] = useState('');
+  const [userInput, setUserInput] = useState('accra');
   const [weather, setWeather] = useState({});
   const search = (event) => {
     if (event.key === 'Enter') {
